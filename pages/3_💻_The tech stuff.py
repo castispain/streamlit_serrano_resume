@@ -13,17 +13,17 @@ My current intersts lay in leveraging big data with Spark for predicting modelli
 </p>
 """, unsafe_allow_html=True)
 
-#
-# col1, col2 = st.columns(2)
-# with col1:
-#     st.subheader("Geospatial platform")
-#     st.image(r"images/gis_platform.jpg", use_container_width=True)
-#     st.markdown("Desktop and Web for GIS")
-# with col2:
-#     st.subheader("Customizing GIS")
-#     st.image(r"images/etl_workflow.jpg", use_container_width=True)
-#     st.markdown("Custom web widgets with VertiGIS workflows")
-# st.markdown("---")
+
+col1, col2 = st.columns(2)
+with col1:
+    st.subheader("Geospatial platform")
+    st.image(r"images/gis_platform.png", use_container_width=True)
+    st.markdown("Desktop and Web for GIS")
+with col2:
+    st.subheader("Customizing GIS")
+    st.image(r"images/etl_workflow.png", use_container_width=True)
+    st.markdown("Custom web widgets with VertiGIS workflows")
+st.markdown("---")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -45,5 +45,5 @@ with col1:
 
 with col2:
     st.subheader("Systems Integration")
-    st.image(r"images/lcm 1.jpg", use_container_width=True)
+    st.image(r"images/lcm 1.png", use_container_width=True)
     st.markdown("ArcGIS Enterprise and Malbek integration")

@@ -51,35 +51,35 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Environmental risk analysis")
-    st.image("images\\fathom flood.jpg", use_container_width=True)
+    st.image(r"images/fathom flood.png", use_container_width=True)
     st.markdown("Flood risk analytics by potential parcel for different return periods.")
 with col2:
     st.subheader("Fire incidents aggregation")
     col3, col4, col5 = st.columns([1, 5, 1])
     with col4:
-        st.image("images\\fire clustering.jpg", width='content')
+        st.image(r"images/fire clustering.png", width='content')
     st.markdown("Number of fire incidents weighted by severity summarized using H3 spatial indexes")
 st.markdown("---")
 
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Multifactor suitability modelling")
-    st.image("images\\models factors to suitability 1.png", width='content')
+    st.image(r"images/models factors to suitability 1.png", width='content')
     st.markdown("")
 with col2:
     st.subheader("")
-    st.image("images\\models factors to suitability 2.png", width='stretch')
+    st.image(r"images/models factors to suitability 2.png", width='stretch')
 st.markdown("Weighted multifactor raster model for wind project suitability using logic analysis.")
 st.markdown("---")
 
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("GIS based grading for cut-and-fill analysis")
-    st.image("images\\cutfill_profile.png", use_container_width=True)
+    st.image(r"images/cutfill_profile.png", use_container_width=True)
     st.markdown("Determination of the best grading surface")
 with col2:
     st.subheader("")
-    st.image("images\\cutfill_dashboard.png", use_container_width=True)
+    st.image(r"images/cutfill_dashboard.png", use_container_width=True)
     st.markdown("Making results accessible")
 st.markdown("---")
 
