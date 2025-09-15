@@ -10,11 +10,11 @@ st.markdown("""
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Grid scale solar projects support")
-    st.image("images\solar farm.jpg", use_container_width=True)
+    st.image(r"images/solar farm.png", use_container_width=True)
     st.markdown("")
 with col2:
     st.subheader("Wind projects support")
-    st.image("images\wind wake.jpg", use_container_width=True)
+    st.image(r"images/wind wake.png", use_container_width=True)
     st.markdown("")
 
 st.markdown("---")
@@ -29,11 +29,11 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("3D communications and turbine space intersections")
-    st.image("images\\fresnelzones.jpg", use_container_width=True)
+    st.image(r"images/fresnelzones.png", use_container_width=True)
     st.markdown("Custom tool for calculating 3D communication paths and turbine spaces")
 with col2:
     st.subheader("Production and cost of energy")
-    st.image("images\\lmp_weighted resources.jpg", use_container_width=True)
+    st.image(r"images/lmp_weighted resources.png", use_container_width=True)
     st.markdown("ETL and report for analysis of 10 min energy production and costs time series")
 st.markdown("---")
 
@@ -44,7 +44,7 @@ with col1:
     st.markdown("Systems integration and custom tool development to allow the departments involved in land control"
                 " to carry on their specific tasks on a centralized system")
 with col2:
-    st.image("images\\land control.jpg", use_container_width=True)
+    st.image(r"images/land control.png", use_container_width=True)
     st.markdown("ETL and report for analysis of 10 min energy production and costs time series")
 st.markdown("---")
 
