@@ -40,7 +40,7 @@ st.markdown("---")
 st.subheader("Land campaign design and land control")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("images\\lcm_roles_and_tech.jpg", use_container_width=True)
+    st.image(r"images/lcm_roles_and_tech.png", use_container_width=True)
     st.markdown("Systems integration and custom tool development to allow the departments involved in land control"
                 " to carry on their specific tasks on a centralized system")
 with col2:
