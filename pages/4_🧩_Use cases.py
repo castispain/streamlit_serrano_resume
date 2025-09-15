@@ -20,7 +20,7 @@ with col2:
 st.markdown("---")
 
 st.subheader("Wind, solar, BESS, and siting buildable land generation")
-st.image("images\\buildable land.png", use_container_width=True)
+st.image(r"images/buildable land.png", use_container_width=True)
 st.markdown("Custom tools for ArcGIS Pro and Enterprise, including US wide datasets for initial generic buildable land and scenario based for siting")
 
 
